@@ -17,6 +17,11 @@ OUT     = "/projects/sandbox/out/CH-Hats-mayoristas.mp4"
 
 W, H, FPS = 1080, 1920, 30
 
+# rutas absolutas: el sandbox limpia /usr/local/bin y /tmp entre comandos,
+# asi que ffmpeg y las fuentes viven en /projects que si persiste
+FFMPEG   = "/projects/bin/ffmpeg"
+FONTSDIR = "/projects/fonts"
+
 AZUL   = "0x02308d"   # azul sacado del video de guia
 NEGRO  = "0x000000"
 BLANCO = "0xffffff"
@@ -55,7 +60,8 @@ BEATS = [
 
     # oferta
     ("flash:white",    0.10, None),
-    ("clip:20.6:in",   2.50, [("al","W"),("público","W"),("L.950","B")]),
+    # 2.80s: da aire para decir "novecientos cincuenta lempiras" completo
+    ("clip:20.6:in",   3.10, [("al","W"),("público","W"),("L.950","B")]),
     ("clip:17.6:out",  2.70, [("vos","W"),("la","W"),("llevás","W"),("mucho","W"),("menos","G")]),
     ("flash:blue",     0.12, None),
     ("tint:27.6",      2.20, [("desde","W"),("3","B"),("unidades","G")]),
@@ -72,7 +78,9 @@ BEATS = [
 
     # llamado a la accion
     ("clip:5.2:in",    2.10, [("escribinos","W"),("al","W"),("WhatsApp","G")]),
-    ("solid:black",    2.70, [("9804-9467","B")]),
+    # 3.40s: leer 8 digitos claro necesita ~3.2s, y le da tiempo al
+    # espectador de captar o tomar screenshot del numero
+    ("solid:black",    3.60, [("9804-9467","B")]),
     ("clip:0.8:out",   1.70, [("y","W"),("arrancás","W"),("hoy","G")]),
     ("outro",          3.20, None),
 ]
@@ -116,7 +124,7 @@ def render_beat(i, visual, dur):
         vf = (f"scale={W*3//2}:{H*3//2}:flags=lanczos,{GRADE},"
               f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='{ypos}'"
               f":d=1:s={W}x{H}:fps={FPS},format=yuv420p")
-        cmd = (f'ffmpeg -v error -ss {start} -t {dur} -i "{SRC}" '
+        cmd = (f'{FFMPEG} -v error -ss {start} -t {dur} -i "{SRC}" '
                f'-vf "{vf}" -t {dur} {COMMON} "{out}"')
 
     elif visual.startswith("tint:"):
@@ -130,7 +138,7 @@ def render_beat(i, visual, dur):
               f"zoompan=z='1.06+0.08*on/{nf}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
               f":d=1:s={W}x{H}:fps={FPS}[bg];"
               f"[1:v]format=rgba[bl];[bg][bl]overlay=0:0:format=auto,format=yuv420p")
-        cmd = (f'ffmpeg -v error -ss {start} -t {dur} -i "{SRC}" '
+        cmd = (f'{FFMPEG} -v error -ss {start} -t {dur} -i "{SRC}" '
                f'-f lavfi -i "color=c={AZUL}@0.55:s={W}x{H}:r={FPS}:d={dur}" '
                f'-filter_complex "{fc}" -t {dur} {COMMON} "{out}"')
 
@@ -140,19 +148,19 @@ def render_beat(i, visual, dur):
               f"[0:v][cap]overlay=(W-w)/2:530:format=auto,"
               f"zoompan=z='1.0+0.07*on/{nf}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
               f":d=1:s={W}x{H}:fps={FPS},format=yuv420p")
-        cmd = (f'ffmpeg -v error -f lavfi -i "color=c={NEGRO}:s={W}x{H}:r={FPS}:d={dur}" '
+        cmd = (f'{FFMPEG} -v error -f lavfi -i "color=c={NEGRO}:s={W}x{H}:r={FPS}:d={dur}" '
                f'-i "{HERO}" -filter_complex "{fc}" -t {dur} {COMMON} "{out}"')
 
     elif visual == "outro":
         fc = (f"[1:v]scale=260:-1:flags=lanczos[lg];"
               f"[0:v][lg]overlay=(W-w)/2:700:format=auto,format=yuv420p")
-        cmd = (f'ffmpeg -v error -f lavfi -i "color=c={NEGRO}:s={W}x{H}:r={FPS}:d={dur}" '
+        cmd = (f'{FFMPEG} -v error -f lavfi -i "color=c={NEGRO}:s={W}x{H}:r={FPS}:d={dur}" '
                f'-i "{LOGO_CH}" -filter_complex "{fc}" -t {dur} {COMMON} "{out}"')
 
     else:
         color = {"black": NEGRO, "flash:blue": AZUL,
                  "flash:white": BLANCO, "solid:black": NEGRO}[visual]
-        cmd = (f'ffmpeg -v error -f lavfi -i "color=c={color}:s={W}x{H}:r={FPS}:d={dur}" '
+        cmd = (f'{FFMPEG} -v error -f lavfi -i "color=c={color}:s={W}x{H}:r={FPS}:d={dur}" '
                f'-vf format=yuv420p -t {dur} {COMMON} "{out}"')
 
     run(cmd)
@@ -232,13 +240,13 @@ def main():
     with open(f"{WORK}/lista.txt", "w") as f:
         for c in clips:
             f.write(f"file '{c}'\n")
-    run(f'ffmpeg -v error -f concat -safe 0 -i "{WORK}/lista.txt" -c copy -an -y "{WORK}/base.mp4"')
+    run(f'{FFMPEG} -v error -f concat -safe 0 -i "{WORK}/lista.txt" -c copy -an -y "{WORK}/base.mp4"')
 
     with open(f"{WORK}/subs.ass", "w", encoding="utf-8") as f:
         f.write(build_ass(events))
 
-    run(f'ffmpeg -v error -i "{WORK}/base.mp4" '
-        f'-vf "ass={WORK}/subs.ass:fontsdir=/usr/share/fonts/playfair" '
+    run(f'{FFMPEG} -v error -i "{WORK}/base.mp4" '
+        f'-vf "ass={WORK}/subs.ass:fontsdir={FONTSDIR}" '
         f'-c:v libx264 -preset slow -crf 21 -pix_fmt yuv420p '
         f'-movflags +faststart -r {FPS} -an -y "{OUT}"')
 

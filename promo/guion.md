@@ -1,9 +1,9 @@
 # Video promocional CH Hats — mayoristas
 
-**Archivo:** `CH-Hats-mayoristas.mp4` · 1080×1920 · 30 fps · **49.2 s** · **sin pista de audio**
+**Archivo:** `CH-Hats-mayoristas.mp4` · 1080×1920 · 30 fps · **50.7 s** · **sin pista de audio**
 
-El video sale en silencio a propósito: la voz se le agrega después. Los cortes están
-en tiempos parejos para que calce una locución encima sin tener que reeditar.
+El video sale en silencio a propósito: la voz se le agrega después.
+Los tiempos para grabar la locución están en **[`audio-elevenlabs.md`](audio-elevenlabs.md)**.
 
 ## Guion
 
@@ -12,33 +12,33 @@ Blanco = texto normal · **Dorado** = palabra con énfasis.
 
 | Tiempo | Texto en pantalla | Imagen |
 |---|---|---|
-| 0.0–0.4 | — | negro |
-| 0.4–3.3 | ¿Querés **emprender** en **Honduras** | gorras, acercamiento |
-| 3.3–3.4 | — | flash azul |
-| 3.4–5.8 | pero no sabés con **qué** | campo azul desenfocado |
-| 5.8–8.7 | todos buscan una idea nueva | gorras, alejamiento |
-| 8.7–8.8 | — | flash blanco |
-| 8.8–11.9 | y la que ya **vende** la tenés **enfrente** | gorras, acercamiento |
-| 11.9–12.0 | — | flash azul |
-| 12.0–13.9 | gorras en **tendencia** | detalle de producto |
-| 13.9–15.7 | a nivel **nacional** | detalle de producto |
-| 15.7–17.2 | — | producto puro, sin texto |
-| 17.2–19.5 | **CH HATS** | foto limpia de la gorra sobre negro |
-| 19.5–19.6 | — | flash blanco |
-| 19.6–22.1 | al público **L.950** | gorras |
-| 22.1–24.8 | vos la llevás mucho **menos** | gorras |
-| 24.8–24.9 | — | flash azul |
-| 24.9–27.1 | desde **3** **unidades** | campo azul |
-| 27.1–29.4 | precio de **mayorista** | gorras |
-| 29.4–32.2 | la diferencia es tu **ganancia** | gorras negras con relieve |
-| 32.2–34.7 | vendés en tu **zona** | gorra H rosada |
-| 34.7–34.8 | — | flash blanco |
-| 34.8–37.2 | mientras más **comprás** | gorras |
-| 37.2–39.4 | **mejor** **precio** te damos | gorras |
-| 39.4–41.5 | escribinos al **WhatsApp** | gorras |
-| 41.5–44.2 | **9804-9467** | negro, número sostenido |
-| 44.2–45.9 | y arrancás **hoy** | gorras |
-| 45.9–49.2 | logo CH · gorrasch.shop · WhatsApp 9804-9467 | cierre |
+| 0.00–0.40 | — | negro |
+| 0.40–3.30 | ¿Querés **emprender** en **Honduras** | gorras, acercamiento |
+| 3.30–3.42 | — | flash azul |
+| 3.42–5.82 | pero no sabés con **qué** | campo azul desenfocado |
+| 5.82–8.72 | todos buscan una idea nueva | gorras, alejamiento |
+| 8.72–8.82 | — | flash blanco |
+| 8.82–11.92 | y la que ya **vende** la tenés **enfrente** | gorras, acercamiento |
+| 11.92–12.04 | — | flash azul |
+| 12.04–13.94 | gorras en **tendencia** | detalle de producto |
+| 13.94–15.74 | a nivel **nacional** | detalle de producto |
+| 15.74–17.24 | — | producto puro, sin texto |
+| 17.24–19.54 | **CH HATS** | foto limpia de la gorra sobre negro |
+| 19.54–19.64 | — | flash blanco |
+| 19.64–22.74 | al público **L.950** | gorras |
+| 22.74–25.44 | vos la llevás mucho **menos** | gorras |
+| 25.44–25.56 | — | flash azul |
+| 25.56–27.76 | desde **3** **unidades** | campo azul |
+| 27.76–30.06 | precio de **mayorista** | gorras |
+| 30.06–32.86 | la diferencia es tu **ganancia** | gorras negras con relieve |
+| 32.86–35.36 | vendés en tu **zona** | gorra H rosada |
+| 35.36–35.46 | — | flash blanco |
+| 35.46–37.86 | mientras más **comprás** | gorras |
+| 37.86–40.06 | **mejor** **precio** te damos | gorras |
+| 40.06–42.16 | escribinos al **WhatsApp** | gorras |
+| 42.16–45.76 | **9804-9467** | negro, número sostenido |
+| 45.76–47.46 | y arrancás **hoy** | gorras |
+| 47.46–50.66 | logo CH · gorrasch.shop · WhatsApp 9804-9467 | cierre |
 
 ## Datos que afirma el video
 
@@ -62,14 +62,16 @@ Blanco = texto normal · **Dorado** = palabra con énfasis.
 python3 build_video.py
 ```
 
-Necesita `ffmpeg` y la fuente Playfair Display instalada en
-`/usr/share/fonts/playfair` (la variante `Playfair Lining` es Playfair Display
-con las cifras *lining* activadas de fábrica, para que el teléfono y el precio
-se lean derechos en vez de con cifras oldstyle).
+Necesita `ffmpeg` en `/projects/bin` y las fuentes en `/projects/fonts`
+(rutas absolutas al inicio del script, se cambian ahí si hace falta).
 
-El guion se edita en la lista `BEATS` dentro de `build_video.py`: cada renglón es
+`Playfair Lining` es Playfair Display con las cifras *lining* activadas de fábrica,
+para que el teléfono y el precio se lean derechos en vez de con cifras oldstyle,
+que es como salen por defecto en esa tipografía.
+
+El guion se edita en la lista `BEATS`: cada renglón es
 `(imagen, duración, [(palabra, estilo)])`. Cambiar texto o tiempos es editar esa
-lista y volver a correr el script.
+lista y volver a correr el script — los subtítulos se recalculan solos.
 
 ## Pendiente
 
