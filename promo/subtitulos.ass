@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: W,Playfair Lining,142,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,3,3,5,50,50,50,1
+Style: G,Playfair Lining,142,&H003EC6F7,&H003EC6F7,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,3,3,5,50,50,50,1
+Style: B,Playfair Lining,190,&H003EC6F7,&H003EC6F7,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,5,5,50,50,50,1
+Style: S,Playfair Lining,68,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,3,0,1,3,3,5,50,50,50,1
+Style: SG,Playfair Lining,76,&H003EC6F7,&H003EC6F7,&H00000000,&H64000000,-1,0,0,0,100,100,3,0,1,3,3,5,50,50,50,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+
+Dialogue: 0,0:00:00.45,0:00:00.99,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}¿Querés
+Dialogue: 0,0:00:01.07,0:00:01.82,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}emprender
+Dialogue: 0,0:00:01.90,0:00:02.44,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}en
+Dialogue: 0,0:00:02.52,0:00:03.27,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}Honduras
+Dialogue: 0,0:00:03.47,0:00:03.84,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}pero
+Dialogue: 0,0:00:03.92,0:00:04.29,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}no
+Dialogue: 0,0:00:04.37,0:00:04.74,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}sabés
+Dialogue: 0,0:00:04.82,0:00:05.18,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}con
+Dialogue: 0,0:00:05.26,0:00:05.79,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}qué
+Dialogue: 0,0:00:05.87,0:00:06.37,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}todos
+Dialogue: 0,0:00:06.45,0:00:06.95,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}buscan
+Dialogue: 0,0:00:07.03,0:00:07.53,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}una
+Dialogue: 0,0:00:07.61,0:00:08.11,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}idea
+Dialogue: 0,0:00:08.19,0:00:08.69,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}nueva
+Dialogue: 0,0:00:08.87,0:00:09.15,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}y
+Dialogue: 0,0:00:09.23,0:00:09.50,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}la
+Dialogue: 0,0:00:09.58,0:00:09.86,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}que
+Dialogue: 0,0:00:09.94,0:00:10.22,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}ya
+Dialogue: 0,0:00:10.30,0:00:10.70,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}vende
+Dialogue: 0,0:00:10.78,0:00:11.05,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}la
+Dialogue: 0,0:00:11.13,0:00:11.41,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}tenés
+Dialogue: 0,0:00:11.49,0:00:11.89,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}enfrente
+Dialogue: 0,0:00:12.09,0:00:12.58,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}gorras
+Dialogue: 0,0:00:12.66,0:00:13.14,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}en
+Dialogue: 0,0:00:13.22,0:00:13.91,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}tendencia
+Dialogue: 0,0:00:13.99,0:00:14.45,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}a
+Dialogue: 0,0:00:14.53,0:00:14.98,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}nivel
+Dialogue: 0,0:00:15.06,0:00:15.71,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}nacional
+Dialogue: 0,0:00:17.54,0:00:19.44,B,,0,0,0,,{\an5\pos(540,1420)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}CH HATS
+Dialogue: 0,0:00:19.69,0:00:20.54,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}al
+Dialogue: 0,0:00:20.62,0:00:21.46,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}público
+Dialogue: 0,0:00:21.54,0:00:22.71,B,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}L.950
+Dialogue: 0,0:00:22.79,0:00:23.21,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}vos
+Dialogue: 0,0:00:23.29,0:00:23.72,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}la
+Dialogue: 0,0:00:23.80,0:00:24.22,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}llevás
+Dialogue: 0,0:00:24.30,0:00:24.73,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}mucho
+Dialogue: 0,0:00:24.81,0:00:25.41,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}menos
+Dialogue: 0,0:00:25.61,0:00:26.12,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}desde
+Dialogue: 0,0:00:26.20,0:00:26.93,B,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}3
+Dialogue: 0,0:00:27.01,0:00:27.73,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}unidades
+Dialogue: 0,0:00:27.81,0:00:28.42,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}precio
+Dialogue: 0,0:00:28.50,0:00:29.10,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}de
+Dialogue: 0,0:00:29.18,0:00:30.03,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}mayorista
+Dialogue: 0,0:00:30.11,0:00:30.55,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}la
+Dialogue: 0,0:00:30.63,0:00:31.08,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}diferencia
+Dialogue: 0,0:00:31.16,0:00:31.60,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}es
+Dialogue: 0,0:00:31.68,0:00:32.12,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}tu
+Dialogue: 0,0:00:32.20,0:00:32.83,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}ganancia
+Dialogue: 0,0:00:32.91,0:00:33.40,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}vendés
+Dialogue: 0,0:00:33.48,0:00:33.98,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}en
+Dialogue: 0,0:00:34.06,0:00:34.55,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}tu
+Dialogue: 0,0:00:34.63,0:00:35.33,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}zona
+Dialogue: 0,0:00:35.51,0:00:36.15,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}mientras
+Dialogue: 0,0:00:36.23,0:00:36.86,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}más
+Dialogue: 0,0:00:36.94,0:00:37.83,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}comprás
+Dialogue: 0,0:00:37.91,0:00:38.46,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}mejor
+Dialogue: 0,0:00:38.54,0:00:39.09,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}precio
+Dialogue: 0,0:00:39.17,0:00:39.56,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}te
+Dialogue: 0,0:00:39.64,0:00:40.03,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}damos
+Dialogue: 0,0:00:40.11,0:00:40.66,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}escribinos
+Dialogue: 0,0:00:40.74,0:00:41.28,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}al
+Dialogue: 0,0:00:41.36,0:00:42.13,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}WhatsApp
+Dialogue: 0,0:00:42.21,0:00:45.73,B,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}9804-9467
+Dialogue: 0,0:00:45.81,0:00:46.24,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}y
+Dialogue: 0,0:00:46.32,0:00:46.74,W,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}arrancás
+Dialogue: 0,0:00:46.82,0:00:47.43,G,,0,0,0,,{\an5\pos(540,1150)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}hoy
+Dialogue: 0,0:00:47.91,0:00:50.51,SG,,0,0,0,,{\an5\pos(540,1180)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}gorrasch.shop
+Dialogue: 0,0:00:48.26,0:00:50.51,S,,0,0,0,,{\an5\pos(540,1300)}{\blur2\fscx86\fscy86\t(0,90,\fscx100\fscy100)\fad(50,50)}WhatsApp  9804-9467
