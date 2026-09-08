@@ -17,81 +17,81 @@ Style: CHICO,InterPromo SemiBold,54,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 
-Dialogue: 0,0:00:00.04,0:00:03.32,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Estamos buscando vendedores en Honduras.
-Dialogue: 0,0:00:03.41,0:00:06.29,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Y {\fnInterPromo Regular}no necesitás comprar nada.
-Dialogue: 0,0:00:06.43,0:00:06.63,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Ni
-Dialogue: 0,0:00:06.63,0:00:06.94,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tener
-Dialogue: 0,0:00:06.94,0:00:07.05,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}el
-Dialogue: 0,0:00:07.05,0:00:07.47,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}producto
-Dialogue: 0,0:00:07.47,0:00:07.57,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}en
-Dialogue: 0,0:00:07.57,0:00:07.77,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tus
-Dialogue: 0,0:00:07.77,0:00:08.46,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}manos
-Dialogue: 0,0:00:09.59,0:00:12.27,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sí, {\fnInterPromo Regular}parece raro.
-Dialogue: 0,0:00:12.36,0:00:14.59,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Pero funciona así.
-Dialogue: 0,0:00:14.74,0:00:15.26,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Publicás
-Dialogue: 0,0:00:15.26,0:00:15.41,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}los
-Dialogue: 0,0:00:15.41,0:00:15.81,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}videos
-Dialogue: 0,0:00:15.81,0:00:15.90,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}de
-Dialogue: 0,0:00:15.90,0:00:16.28,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}nuestras
-Dialogue: 0,0:00:16.28,0:00:17.01,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gorras
-Dialogue: 0,0:00:17.96,0:00:18.16,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}En
-Dialogue: 0,0:00:18.16,0:00:18.30,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tu
-Dialogue: 0,0:00:18.30,0:00:18.77,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}TikTok
-Dialogue: 0,0:00:18.77,0:00:18.85,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}o
-Dialogue: 0,0:00:18.85,0:00:18.96,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}en
-Dialogue: 0,0:00:18.96,0:00:19.04,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tu
-Dialogue: 0,0:00:19.04,0:00:19.71,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}estado
-Dialogue: 0,0:00:20.69,0:00:21.06,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Alguien
-Dialogue: 0,0:00:21.06,0:00:21.16,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}te
-Dialogue: 0,0:00:21.16,0:00:21.59,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}escribe
-Dialogue: 0,0:00:21.59,0:00:21.90,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}porque
-Dialogue: 0,0:00:21.90,0:00:21.98,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}le
-Dialogue: 0,0:00:21.98,0:00:22.33,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gustó
-Dialogue: 0,0:00:22.33,0:00:22.90,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}una
-Dialogue: 0,0:00:23.92,0:00:24.47,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
-Dialogue: 0,0:00:24.47,0:00:24.55,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}la
-Dialogue: 0,0:00:24.55,0:00:25.37,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}enviamos
-Dialogue: 0,0:00:26.28,0:00:26.81,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
-Dialogue: 0,0:00:26.81,0:00:27.66,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cobramos
-Dialogue: 0,0:00:28.57,0:00:29.10,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
-Dialogue: 0,0:00:29.10,0:00:29.43,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}damos
-Dialogue: 0,0:00:29.43,0:00:29.52,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}la
-Dialogue: 0,0:00:29.52,0:00:30.35,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}garantía
-Dialogue: 0,0:00:31.46,0:00:31.61,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Y
-Dialogue: 0,0:00:31.61,0:00:31.86,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cuando
-Dialogue: 0,0:00:31.86,0:00:31.97,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}el
-Dialogue: 0,0:00:31.97,0:00:32.38,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cliente
-Dialogue: 0,0:00:32.38,0:00:32.79,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}recibe
-Dialogue: 0,0:00:32.79,0:00:32.95,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}su
-Dialogue: 0,0:00:32.95,0:00:33.55,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gorra
-Dialogue: 0,0:00:34.57,0:00:34.84,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}vos
-Dialogue: 0,0:00:34.84,0:00:35.15,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}ganás
-Dialogue: 0,0:00:35.15,0:00:35.38,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cien
-Dialogue: 0,0:00:35.38,0:00:36.25,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}lempiras
-Dialogue: 0,0:00:37.46,0:00:39.91,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Por {\fnInterPromo Regular}cada gorra vendida.
-Dialogue: 0,0:00:40.05,0:00:40.38,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Diez
-Dialogue: 0,0:00:40.38,0:00:40.77,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gorras
-Dialogue: 0,0:00:40.77,0:00:40.90,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}en
-Dialogue: 0,0:00:40.90,0:00:41.03,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}un
-Dialogue: 0,0:00:41.03,0:00:41.24,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}mes
-Dialogue: 0,0:00:41.24,0:00:41.42,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}son
-Dialogue: 0,0:00:41.42,0:00:41.61,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}mil
-Dialogue: 0,0:00:41.61,0:00:42.47,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}lempiras
-Dialogue: 0,0:00:43.59,0:00:45.60,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sin inventario.
-Dialogue: 0,0:00:45.69,0:00:47.79,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sin poner dinero.
-Dialogue: 0,0:00:47.88,0:00:50.73,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sin {\fnInterPromo Regular}arriesgar nada tuyo.
-Dialogue: 0,0:00:50.88,0:00:51.17,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Vos
-Dialogue: 0,0:00:51.17,0:00:52.69,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}publicás
-Dialogue: 0,0:00:52.69,0:00:53.24,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
-Dialogue: 0,0:00:53.24,0:00:53.35,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}el
-Dialogue: 0,0:00:53.35,0:00:53.97,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}resto
-Dialogue: 0,0:00:55.10,0:00:55.34,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Si
-Dialogue: 0,0:00:55.34,0:00:55.66,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}querés
-Dialogue: 0,0:00:55.66,0:00:56.33,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}entrar
-Dialogue: 0,0:00:56.33,0:00:56.98,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}escribinos
-Dialogue: 0,0:00:56.98,0:00:57.11,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}al
-Dialogue: 0,0:00:57.11,0:00:57.84,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}WhatsApp
-Dialogue: 0,0:00:58.76,0:01:02.83,NUM,,0,0,0,,{\an5\pos(540,900)}{\fad(70,70)}9804-9467
-Dialogue: 0,0:01:02.92,0:01:06.19,FRASEN,,0,0,0,,{\an5\pos(540,760)}{\fad(70,70)}Y te explicamos todo hoy mismo.
-Dialogue: 0,0:01:03.18,0:01:06.19,NUMN,,0,0,0,,{\an5\pos(540,1010)}{\fad(70,70)}9804-9467
-Dialogue: 0,0:01:03.43,0:01:06.19,CHICO,,0,0,0,,{\an5\pos(540,1170)}{\fad(70,70)}WhatsApp
+Dialogue: 0,0:00:00.04,0:00:02.83,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Estamos buscando vendedores en Honduras.
+Dialogue: 0,0:00:02.92,0:00:05.28,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Y {\fnInterPromo Regular}no necesitás comprar nada.
+Dialogue: 0,0:00:05.42,0:00:05.60,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Ni
+Dialogue: 0,0:00:05.60,0:00:05.88,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tener
+Dialogue: 0,0:00:05.88,0:00:05.97,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}el
+Dialogue: 0,0:00:05.97,0:00:06.35,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}producto
+Dialogue: 0,0:00:06.35,0:00:06.43,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}en
+Dialogue: 0,0:00:06.43,0:00:06.61,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tus
+Dialogue: 0,0:00:06.61,0:00:07.25,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}manos
+Dialogue: 0,0:00:07.98,0:00:10.14,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sí, {\fnInterPromo Regular}parece raro.
+Dialogue: 0,0:00:10.23,0:00:12.11,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Pero funciona así.
+Dialogue: 0,0:00:12.26,0:00:12.72,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Publicás
+Dialogue: 0,0:00:12.72,0:00:12.86,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}los
+Dialogue: 0,0:00:12.86,0:00:13.21,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}videos
+Dialogue: 0,0:00:13.21,0:00:13.29,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}de
+Dialogue: 0,0:00:13.29,0:00:13.63,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}nuestras
+Dialogue: 0,0:00:13.63,0:00:14.30,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gorras
+Dialogue: 0,0:00:15.00,0:00:15.18,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}En
+Dialogue: 0,0:00:15.18,0:00:15.30,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tu
+Dialogue: 0,0:00:15.30,0:00:15.72,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}TikTok
+Dialogue: 0,0:00:15.72,0:00:15.79,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}o
+Dialogue: 0,0:00:15.79,0:00:15.89,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}en
+Dialogue: 0,0:00:15.89,0:00:15.97,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}tu
+Dialogue: 0,0:00:15.97,0:00:16.58,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}estado
+Dialogue: 0,0:00:17.31,0:00:17.64,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Alguien
+Dialogue: 0,0:00:17.64,0:00:17.73,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}te
+Dialogue: 0,0:00:17.73,0:00:18.11,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}escribe
+Dialogue: 0,0:00:18.11,0:00:18.38,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}porque
+Dialogue: 0,0:00:18.38,0:00:18.46,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}le
+Dialogue: 0,0:00:18.46,0:00:18.77,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gustó
+Dialogue: 0,0:00:18.77,0:00:19.30,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}una
+Dialogue: 0,0:00:20.02,0:00:20.52,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
+Dialogue: 0,0:00:20.52,0:00:20.58,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}la
+Dialogue: 0,0:00:20.58,0:00:21.34,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}enviamos
+Dialogue: 0,0:00:22.04,0:00:22.51,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
+Dialogue: 0,0:00:22.51,0:00:23.29,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cobramos
+Dialogue: 0,0:00:23.98,0:00:24.45,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
+Dialogue: 0,0:00:24.45,0:00:24.75,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}damos
+Dialogue: 0,0:00:24.75,0:00:24.83,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}la
+Dialogue: 0,0:00:24.83,0:00:25.59,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}garantía
+Dialogue: 0,0:00:26.35,0:00:26.48,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Y
+Dialogue: 0,0:00:26.48,0:00:26.71,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cuando
+Dialogue: 0,0:00:26.71,0:00:26.80,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}el
+Dialogue: 0,0:00:26.80,0:00:27.17,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cliente
+Dialogue: 0,0:00:27.17,0:00:27.53,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}recibe
+Dialogue: 0,0:00:27.53,0:00:27.67,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}su
+Dialogue: 0,0:00:27.67,0:00:28.23,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gorra
+Dialogue: 0,0:00:28.93,0:00:29.16,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}vos
+Dialogue: 0,0:00:29.16,0:00:29.44,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}ganás
+Dialogue: 0,0:00:29.44,0:00:29.65,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}cien
+Dialogue: 0,0:00:29.65,0:00:30.45,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}lempiras
+Dialogue: 0,0:00:31.21,0:00:33.21,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Por {\fnInterPromo Regular}cada gorra vendida.
+Dialogue: 0,0:00:33.35,0:00:33.64,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Diez
+Dialogue: 0,0:00:33.64,0:00:33.98,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}gorras
+Dialogue: 0,0:00:33.98,0:00:34.10,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}en
+Dialogue: 0,0:00:34.10,0:00:34.22,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}un
+Dialogue: 0,0:00:34.22,0:00:34.40,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}mes
+Dialogue: 0,0:00:34.40,0:00:34.56,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}son
+Dialogue: 0,0:00:34.56,0:00:34.73,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}mil
+Dialogue: 0,0:00:34.73,0:00:35.52,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}lempiras
+Dialogue: 0,0:00:36.26,0:00:37.94,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sin inventario.
+Dialogue: 0,0:00:38.03,0:00:39.79,FRASE,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sin poner dinero.
+Dialogue: 0,0:00:39.88,0:00:42.18,FRASEN,,0,0,0,,{\an5\pos(540,940)}{\fad(70,70)}Sin {\fnInterPromo Regular}arriesgar nada tuyo.
+Dialogue: 0,0:00:42.32,0:00:42.58,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Vos
+Dialogue: 0,0:00:42.58,0:00:43.93,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}publicás
+Dialogue: 0,0:00:43.93,0:00:44.42,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Nosotros
+Dialogue: 0,0:00:44.42,0:00:44.51,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}el
+Dialogue: 0,0:00:44.51,0:00:45.09,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}resto
+Dialogue: 0,0:00:45.87,0:00:46.08,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}Si
+Dialogue: 0,0:00:46.08,0:00:46.37,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}querés
+Dialogue: 0,0:00:46.37,0:00:46.96,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}entrar
+Dialogue: 0,0:00:46.96,0:00:47.54,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}escribinos
+Dialogue: 0,0:00:47.54,0:00:47.66,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}al
+Dialogue: 0,0:00:47.66,0:00:48.33,SUB,,0,0,0,,{\an5\pos(540,1545)}{\fad(25,25)}WhatsApp
+Dialogue: 0,0:00:48.99,0:00:52.40,NUM,,0,0,0,,{\an5\pos(540,900)}{\fad(70,70)}9804-9467
+Dialogue: 0,0:00:52.49,0:00:55.34,FRASEN,,0,0,0,,{\an5\pos(540,760)}{\fad(70,70)}Y te explicamos todo hoy mismo.
+Dialogue: 0,0:00:52.75,0:00:55.34,NUMN,,0,0,0,,{\an5\pos(540,1010)}{\fad(70,70)}9804-9467
+Dialogue: 0,0:00:53.00,0:00:55.34,CHICO,,0,0,0,,{\an5\pos(540,1170)}{\fad(70,70)}WhatsApp
